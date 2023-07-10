@@ -1,0 +1,17 @@
+name: Employeefrontend DevSecOps workflow
+
+on: 
+  push: 
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build-job:
+    runs-on: ubunto-latest
+    steps:
+      -name: Build Step 1 
+      run: echo "Build Step 1"
+      
+      -name: Build Step 2 
+      run: echo "Build Step 2"
+      
