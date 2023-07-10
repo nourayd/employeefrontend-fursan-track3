@@ -7,11 +7,11 @@ on:
 
 jobs:
   build-job:
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
     steps:
-      -name: Build Step 1 
-      run: echo "Build Step 1"
+      - name: Build Step 1 
+        run: echo "Build Step 1"
       
-      -name: Build Step 2 
-      run: echo "Build Step 2"
+      - name: Build Step 2 
+        run: echo "Build Step 2"
       
