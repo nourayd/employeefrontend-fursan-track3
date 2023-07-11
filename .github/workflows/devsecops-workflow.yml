@@ -42,7 +42,7 @@ jobs:
       - name: Step 2 Install Node.js
         uses: actions/setup-node@v3.7.0
         with: 
-          node-version: 'v18.6.1'
+          node-version: 'v18.16.1'
 
       - name: Step 3 Install Dependencies 
         run: npm install
